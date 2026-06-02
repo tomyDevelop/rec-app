@@ -1,0 +1,75 @@
+/* ----------------------------------------
+  Variables
+---------------------------------------- */
+:root {
+  --c_primary: #8ECFC5;
+  --c_primary-light: #DAF2ED;
+  --c_accent: #F6C8A8;
+  --c_background: #F8FCFB;
+  --c_text-main: #3E5E59;
+  --c_text-sub: #7A928D;
+  --c_white: #FFFFFF;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, footer, header, main, menu, nav, section,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: var(--c_primary);
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: var(--c_background);
+}
+
+.header__text {
+  font-size: 24px;
+}
+
+.main__title {
+  display: grid;
+  height: 200px;
+  place-content: center;
+}
+
+.main__title h1 {
+  margin: 0;
+  font-size: 32px;
+  color: var(--c_background);
+}
+
+.buttonList {
+  padding: 20px 0;
+  display: grid;
+  gap: 30px;
+}
+
+.buttunList__link {
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
+  background-color: var(--c_accent);
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--c_text-main);
+}
