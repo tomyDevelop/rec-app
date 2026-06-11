@@ -1,0 +1,29 @@
+.quiz {
+  padding: 20px;
+  background-color: var(--c_background);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.quiz__number {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.quiz__question {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.answer-list {
+  display: grid;
+  gap: 20px;
+}
+
+.answer-list__link {
+  display: block;
+  padding: 15px 20px;
+  background-color: var(--c_accent);
+  border-radius: 5px;
+}
